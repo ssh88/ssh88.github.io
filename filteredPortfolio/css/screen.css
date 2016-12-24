@@ -1,0 +1,48 @@
+
+ul#filter { float: left; font-size: 16px; list-style: none; margin-left: 0; width: 100%;}
+ul#filter li { 
+	border-right: 1px solid #dedede;
+	float: left;/*floats the filter options to the left*/
+	line-height: 16px;
+	margin-right: 10px;
+	padding-right: 10px;
+}
+/*filter options settingssuch as hover style, selected option style etc.*/
+ul#filter li:last-child { border-right: none; margin-right: 0; padding-right: 0; }
+ul#filter a { color: #000; text-decoration: none; }
+ul#filter li.current a, ul#filter a:hover { text-decoration: underline; }
+ul#filter li.current a { color: #ff0e00; font-weight: bold;text-decoration: none;}
+
+ul#portfolio 
+{ 
+float: left; 
+list-style: none;
+margin-bottom:10px; 
+width: 100%; 
+border-bottom: 
+5px solid #5d615d;
+}
+/*outside container box*/
+ul#portfolio li { 
+	/*border:1px solid #FF9900; BLACK AND ORANGE THEME*/
+	border:0px solid #ff0e00;
+	float: left; 
+	margin: 0 10px 10px 0; 
+	padding: 5px;
+	width: 202px;
+	background-color: transparent;
+	-moz-border-radius: 0px; border-radius: 0px;
+}
+/*outside container box mouse over*/
+ul#portfolio li:hover { 
+	/*background-color: #FF9900; BLACK AND ORANGE THEME */
+	background-color: #ff0e00;
+	color:#FFFFFF;
+	/*color: #000; black orange theme*/
+	font-weight:bold;
+}
+ul#portfolio a { display: block; width: 100%; }
+ul#portfolio a:hover { text-decoration: none; background-color: #ff0e00;}
+/*image block*/
+/*ul#portfolio img { border:1px solid #FF9900; display: block; padding-bottom: 0px; } BLACK AND ORANGE THEME*/
+ul#portfolio img { border:0px solid #ff0e00; display: block; padding-bottom: 0px; moz-border-radius: 0px; border-radius: 0px; }

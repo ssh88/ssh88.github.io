@@ -1,0 +1,153 @@
+/*
+Template name: Decayed
+Template URI: http://templates.arcsin.se/decayed-website-template/
+Release date: 2007-05-12
+Description: A dark trash style two-column website template.
+Author: Viktor Persson
+Author URI: http://arcsin.se/
+
+This template is licensed under a Creative Commons Attribution 2.5 License:
+http://templates.arcsin.se/license/
+*/
+
+/* standard elements */
+html {min-height: 100%;}
+
+* {
+	margin: 0;
+	padding: 0;
+}
+p.postinfo {
+	border-top: 1px dashed #333;
+	color: #666;
+	font: bold 0.9em sans-serif;
+	margin-bottom: 24px;
+	padding: 8px;
+}
+p.postinfo a {color: #888;}
+p.postinfo a:hover {color: #CCC;}
+
+/* structure */
+#container {
+	margin: 0 auto;
+	width: 700px;
+  	text-align: left;
+	font-size: 14px;
+}
+/* content */
+#content {
+	top: 30px;
+	position: relative;
+}
+#site-description {color: #CCC;}
+/*nav*/
+/*BLACK AND ORANGE THEME
+#nav {
+	top: 20px;
+	position: relative;
+	height: 30px;
+	background: #000;
+	border-bottom:1px dashed #333;
+}
+*/
+
+#nav {
+	top: 20px;
+	position: relative;
+	height: 30px;
+	border-bottom:5px solid #5d615d;
+}
+#nav ul {
+	list-style: none;
+	margin: 0 0 0 0px; padding: 0;	
+	display: inline;
+}
+#nav ul li {
+	display: inline;
+	margin: 0; padding: 0;
+}
+#nav ul li a {
+	margin: 0;	padding: 0 12px;
+	text-decoration: none;
+	/* customize_nav_link */
+	/*color: #c95723; BLACK AND ORANGE THEME*/
+	/* customize_nav_link */
+	text-transform: uppercase;
+}
+#nav li ul a {
+	/* customize_nav_drop_link */
+	background-color: black;
+	/* customize_nav_drop_link */
+	
+}
+#nav li ul a {
+	float: none;
+}
+#nav ul li a:hover, 
+#nav ul li a:active {
+	background-color:#5d615d;
+	/* customize_nav_link_hover */
+	color: #eee;
+	/* customize_nav_link_hover */
+	border: none;
+}
+#nav ul li.nav-selected a {	
+	/* customize_nav_link_curent */
+	color: #FFFF00;	
+	/* customize_nav_link_current */
+}
+#portfolio{
+	position: relative;
+	width: 100%;
+	margin-top:10px;
+	margin-left:auto;
+	margin-right:auto;
+	text-align:center;
+	
+}
+/*tables*/
+/*BLACK ORANGE
+#customers { font-family:"Trebuchet MS", Arial, Helvetica, sans-serif; width:100%; border-collapse:collapse; }
+#customers td, #customers th  { font-size:1em; border:0px solid #FF9900; padding:3px 7px 2px 7px; } 
+#customers th  { font-size:1.1em; text-align:left; padding-top:5px; padding-bottom:4px; background-color:#c95723; color:#ffffff; }
+#customers tr, td  { color:#000; background-color:#fff; }
+#customers tr.alt td  { color:#000; background-color:#FFCC99; }*/
+
+#customers {width:100%; }
+#customers td, #customers th  { font-size:1em; border:0px solid #ff0e00; padding:3px 7px 2px 7px;}
+#customers th  { font-size:1.1em; text-align:left; padding-top:5px; padding-bottom:4px; background-color:#ff0e00; color:#ffffff; }
+#customers tr, td  { color:#000; background-color:#FFFFFF; }
+#customers tr.alt td  { color:#000; background-color:#f7b4b0; }
+/* footer */
+#footer {
+	border-top: 5px solid #5d615d;
+	color: #666;
+	font: normal 0.9em sans-serif;
+	position: relative;
+	width: 100%;
+}
+#footer a {
+	color: #999;
+	text-decoration: none;
+}
+#footer a:hover {
+	color: #CCC;
+	text-decoration: underline;
+}
+#footer .left, #footer .right {padding: 10px 0;}
+#footer .right a {color: #777;}
+
+#footer2 {
+	color: #666;
+	font: normal 0.9em sans-serif;
+	position: relative;
+	width: 100%;
+}
+#footer2 a {
+	color: #999;
+}
+#footer2 a:hover {
+	color: #CCC;
+}
+#footer2 .left, #footer .right {padding: 10px 0;}
+#footer2 .right a {color: #777;}
