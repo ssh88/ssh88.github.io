@@ -1,17 +1,17 @@
 <!DOCTYPE HTML>
 <html>
 <head>
-<meta name="description" content="Shabeer S Hussain, Freelance Flash/Website Developer" />
-<meta name="keywords" content="HTML,CSS,PHP,Actionscript,as3,as2,flash,freelance,games" />
-<meta name="author" content="Shabeer S Hussain" />
-<meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+	<meta name="description" content="Shabeer S Hussain, iOS Engineer" />
+	<meta name="keywords" content="iOS, Swift, Obj-c, Objective-c, Objective c, iPhone, iPad, Apps, Mobile, app" />
+	<meta name="author" content="Shabeer S Hussain" />
+	<meta http-equiv="content-type" content="text/html;charset=UTF-8" />
 
-<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
-<link rel="icon" href="/favicon.ico" type="image/x-icon">
+	<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+	<link rel="icon" href="/favicon.ico" type="image/x-icon">
 
-<link rel="stylesheet" type="text/css" href="css/default.css" media="screen">
-<link rel="stylesheet" type="text/css" href="css/typography.css" media="screen">
-<title> Shabeer S Hussain</title>
+	<link rel="stylesheet" type="text/css" href="/css/default.css">
+	<link rel="stylesheet" type="text/css" href="/css/typography.css">
+	<title> Shabeer Hussain</title>
 </head>
 <body>
 <?php
