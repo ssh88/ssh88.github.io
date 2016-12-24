@@ -14,17 +14,22 @@
 	<title> Shabeer Hussain</title>
 </head>
 <body>
-<?php
-
-   //header( 'Location: http://www.shabeershussain.co.uk/maintenance/' ) ;
-
-?>
 <div id="container">
       <div id="nav">
-            <?php include("navigation.php") ?>
+   <div        
+	      <ul>
+<li><a href="index.php">About</a></li>
+<li><a href="portfolio.php">Portfolio</a></li>
+<li><a href="education.php">Education</a></li>
+</ul>
+
+
+
+
+</div>
         </div>
 <div id="content"><p>
-<p><!--<a href="/mobile.php">Mobile Version</a></p>-->
+<p>
 I am a London based iOS developer specialising in native iOS app development. I also work as an iOS trainer, teaching industry developers who specialise in other languages the art of iOS! When I am not teaching I create beautiful and smooth Apps for hire.</p>
 <p>For freelance projects such as iPhone and iPad apps please contact me at <b><a href="mailto:ShabeerSHussain@gmail.com?subject=Development%20project%20inquiry">ShabeerSHussain@gmail.com</a></b> to discuss how I can meet your development needs.</p>
 <p>Feel free to browse my <a href="portfolio.php">portfolio</a> to view some projects I have worked on along with some random experiments.</p>
@@ -49,11 +54,7 @@ I have just launched my latest iOS app Delivered, an app which aims to help deli
             </p>
             <p>
             For more information on Delivered or to join the Delivered mailing list to be the first to hear about the latest developments visit the <a href="http://delivered.desertmonkey.co.uk"> Delivered home page </a>. 
-                
-            <div id="footer">
-                <?php include("footer.php") ?>
-            </div>
-        
+
         </div>
     </div>
 </body>
